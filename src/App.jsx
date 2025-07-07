@@ -619,6 +619,12 @@ const ClockKingdom = () => {
         </div>
       </div>
 
+      {/* Gem Score Card */}
+      <div className="gem-score-card">
+        <div className="gem-icon">💎</div>
+        <div className="gem-score">{score}</div>
+      </div>
+
       {/* Main Game Container */}
       <div className="game-container">
         <div className="floating-island">
@@ -727,6 +733,9 @@ const ClockKingdom = () => {
       >
         {musicOn ? "🎵" : "🔇"}
       </div>
+
+      {/* Exit Game Button (UI only) */}
+      <button className="exit-game-btn">Exit Game</button>
     </div>
   );
 };
